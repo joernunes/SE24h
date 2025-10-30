@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+                            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+    <!-- Page d'Accueil -->
+    <url>
+        <loc>https://siteen24h.netlify.fr/</loc>
+        <lastmod>2025-10-30</lastmod>
+        <changefreq>quotidien</changefreq>
+        <priority>1.0</priority>
+        <xhtml:link 
+            rel="alternate"
+            hreflang="fr"
+            href="https://siteen24h.netlify.app/"
+        />
+    </url>
+    
+    <!-- Pages Principales -->
+    <url>
+        <loc>https://siteen24h.netlify.app/comment-ca-marche</loc>
+        <lastmod>2025-10-30</lastmod>
+        <changefreq>mensuel</changefreq>
+        <priority>0.9</priority>
+        <xhtml:link 
+            rel="alternate"
+            hreflang="fr"
+            href="https://siteen24h.netlify.app/comment-ca-marche"
+        />
+    </url>
+    
+    <url>
+        <loc>https://siteen24h.netlify.app/nos-forfaits</loc>
+        <lastmod>2025-10-30</lastmod>
+        <changefreq>mensuel</changefreq>
+        <priority>0.9</priority>
+        <xhtml:link 
+            rel="alternate"
+            hreflang="fr"
+            href="https://siteen24h.netlify.app/nos-forfaits"
+        />
+    </url>
+    
+    <url>
+        <loc>https://siteen24h.netlify.app/portfolio</loc>
+        <lastmod>2025-10-30</lastmod>
+        <changefreq>mensuel</changefreq>
+        <priority>0.8</priority>
+        <xhtml:link 
+            rel="alternate"
+            hreflang="fr"
+            href="https://siteen24h.netlify.app/portfolio"
+        />
+    </url>
+    
+    <url>
+        <loc>https://siteen24h.netlify.app/contact</loc>
+        <lastmod>2025-10-30</lastmod>
+        <changefreq>mensuel</changefreq>
+        <priority>0.8</priority>
+        <xhtml:link 
+            rel="alternate"
+            hreflang="fr"
+            href="https://siteen24h.netlify.app/contact"
+        />
+    </url>
+    
+    <!-- Pages Légales -->
+    <url>
+        <loc>https://siteen24h.netlify.app/politique-de-confidentialite</loc>
+        <lastmod>2025-10-30</lastmod>
+        <changefreq>annuel</changefreq>
+        <priority>0.3</priority>
+        <xhtml:link 
+            rel="alternate"
+            hreflang="fr"
+            href="https://siteen24h.netlify.app/politique-de-confidentialite"
+        />
+    </url>
+    
+    <url>
+        <loc>https://siteen24h.netlify.app/conditions-generales</loc>
+        <lastmod>2025-10-30</lastmod>
+        <changefreq>annuel</changefreq>
+        <priority>0.3</priority>
+        <xhtml:link 
+            rel="alternate"
+            hreflang="fr"
+            href="https://siteen24h.netlify.app/conditions-generales"
+        />
+    </url>
+</urlset>

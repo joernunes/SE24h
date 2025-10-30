@@ -4,42 +4,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title data-i18n="page_title">Site en 24h pour Votre Entreprise | Apparaître sur Google Maps</title>
+    <title>Création de Site Web Pro au Maroc en 24h | À partir de 500 MAD | SiteEn24h.ma</title>
 
-    <!-- Meta Tags Otimizadas para SEO -->
-    <meta name="description" data-i18n="meta_description"
-        content="Créez votre site professionnel en 24h pour 500 MAD. Optimisé pour Google SEO et mobile. Commencez à recevoir des clients en ligne demain !">
+    <!-- Meta Tags Optimisées pour le SEO -->
+    <meta name="description"
+        content="Création de sites web professionnels au Maroc en 24h seulement. Référencement Google inclus, design responsive et hébergement offert. Obtenez votre devis gratuit dès maintenant !">
     <meta name="keywords"
-        content="site en 24h, site maroc, site vitrine maroc, agence web maroc, google seo, site web pour petites entreprises, 500 MAD">
-    <meta name="keywords"
-        content="site en 24h, création site web maroc, site vitrine maroc, agence web maroc, site web pour petites entreprises, google seo, 500 MAD">
-    <meta name="author" content="Votre Nom">
-    <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://www.votresite.com/">
+        content="création site web maroc, site internet professionnel maroc, site vitrine maroc, site e-commerce maroc, site pas cher casablanca, agence web maroc, création site internet rabat, site internet marrakech, site web agadir, référencement google maroc, site responsive maroc, site wordpress maroc, site internet pas cher maroc, création site web casablanca, agence web casablanca">
+    <meta name="author" content="SiteEn24h.ma">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <link rel="canonical" href="https://siteen24h.netlify.app/">
+
+    <!-- Geo Tags -->
+    <meta name="geo.region" content="MA">
+    <meta name="geo.placename" content="Meknès, Maroc">
+    <meta name="geo.position" content="33.5731;-7.5898">
+    <meta name="ICBM" content="33.5731, -7.5898">
+
+    <!-- Business Data -->
+    <meta name="business:contact_data:locality" content="Meknès">
+    <meta name="business:contact_data:country_name" content="Maroc">
 
     <!-- Theme Color -->
     <meta name="theme-color" content="#10B981">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.votresite.com/">
-    <meta property="og:title" data-i18n="og_title"
-        content="Site en 24h pour Votre Entreprise | Apparaître sur Google Maps">
-    <meta property="og:description" data-i18n="og_description"
-        content="Créez votre site professionnel en 24h pour 500 MAD. Optimisé pour Google SEO et mobile.">
-    <meta property="og:image" content="https://www.votresite.com/og-image.jpg">
-    <meta property="og:image" content="https://www.votresite.com/og-image.png"> <!-- Use a .png for better quality -->
-    <meta property="og:site_name" content="Site en 24h">
+    <meta property="og:url" content="https://siteen24h.netlify.app/">
+    <meta property="og:title" content="Création de Site Web Pro au Maroc en 24h | À partir de 500 MAD | SiteEn24h">
+    <meta property="og:description"
+        content="Création de sites web professionnels au Maroc en 24h seulement. Référencement Google inclus, design responsive et hébergement offert. Contactez-nous dès maintenant !">
+    <meta property="og:image" content="https://siteen24h.netlify.app/images/og-image.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Création de sites web professionnels au Maroc - SiteEn24h.ma">
+    <meta property="og:site_name" content="SiteEn24h.ma">
     <meta property="og:locale" content="fr_FR">
-    <meta property="og:locale:alternate" content="en_US">
+    <meta property="og:see_also" content="https://wa.me/212715199504">
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:url" content="https://www.votresite.com/">
-    <meta name="twitter:title" data-i18n="og_title" content="Site en 24h pour Votre Entreprise">
-    <meta name="twitter:description" data-i18n="og_description"
-        content="Créez votre site professionnel en 24h pour 500 MAD. Optimisé pour Google SEO et mobile.">
-    <meta name="twitter:image" content="https://www.votresite.com/twitter-image.png">
+    <meta name="twitter:site" content="@siteen24h">
+    <meta name="twitter:creator" content="@siteen24h">
+    <meta name="twitter:title" content="Création de Site Web Pro au Maroc en 24h | SiteEn24h.ma">
+    <meta name="twitter:description"
+        content="Création de sites web professionnels au Maroc en 24h seulement. Référencement Google inclus, design responsive et hébergement offert.">
+    <meta name="twitter:image" content="https://siteen24h.netlify.app/images/twitter-card.jpg">
+    <meta name="twitter:image:alt" content="Création de sites web professionnels au Maroc - SiteEn24h.ma">
 
     <!-- Favicon -->
     <link rel="icon" type="image/svg+xml"
@@ -52,12 +63,14 @@
         href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Inter:wght@400;500;600&display=swap"
         rel="stylesheet">
 
-    <!-- Tailwind CSS -->
-    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Tailwind CSS (chargé de manière non-bloquante) -->
+    <!-- Le CSS critique est dans la balise <style> ci-dessous -->
+    <link rel="preload" href="https://cdn.tailwindcss.com" as="script">
+    <link rel="stylesheet" href="https://cdn.tailwindcss.com" media="print" onload="this.media='all'">
+    <script src="https://cdn.tailwindcss.com" async></script>
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
 
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-QH5HRX38R1"></script>
@@ -65,21 +78,83 @@
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
-
         gtag('config', 'G-QH5HRX38R1');
     </script>
 
     <!-- JSON-LD Structured Data for SEO -->
+    <!-- Schema.org markup for Google -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "LocalBusiness",
-      "name": "Site en 24h",
-      "description": "Création de sites professionnels en 24h pour petites entreprises.",
-      "url": "https://www.votresite.com",
+      "@type": "ProfessionalService",
+      "@id": "https://siteen24h.netlify.app",
+      "name": "SiteEn24h.ma",
+      "image": "https://siteen24h.netlify.app/images/logo.jpg",
+      "url": "https://siteen24h.netlify.app",
       "telephone": "+212715199504",
-      "areaServed": "Maroc",
-      "priceRange": "$$"
+      "email": "contato@siteen24h.ma",
+      "priceRange": "500MAD",
+      "description": "Création de sites web professionnels au Maroc en 24h seulement avec référencement Google inclus.",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "123 Avenue des FAR",
+        "addressLocality": "Casablanca",
+        "postalCode": "20000",
+        "addressRegion": "Casablanca-Settat",
+        "addressCountry": "MA"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 33.5731,
+        "longitude": -7.5898
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "09:00",
+          "closes": "20:00"
+        },
+    
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Services de Création de Sites Web",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Site Vitrine",
+              "description": "Site vitrine professionnel avec 5 pages, design responsive et référencement de base.",
+              "price": "500",
+              "priceCurrency": "MAD"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Site E-commerce",
+              "description": "Boutique en ligne complète avec catalogue produits et paiement en ligne.",
+              "price": "2500",
+              "priceCurrency": "MAD"
+            }
+          }
+        ]
+      },
+      "sameAs": [
+        "https://wa.me/212715199504",
+        "https://www.facebook.com/siteen24h",
+        "https://www.instagram.com/siteen24h"
+      ],
+      
     }
     </script>
 
@@ -261,44 +336,13 @@
             transform: rotate(180deg);
         }
 
-        .logo-container {
-            position: fixed;
-            top: 20px;
-            left: 20px;
-            z-index: 1000;
-        }
-
-        /* --- Controls (Theme & Language) --- */
-        .controls {
-            position: fixed;
-            top: 20px;
-            right: 20px;
-            z-index: 1000;
-            display: flex;
-            gap: 12px;
-            align-items: center;
-            user-select: none;
-        }
-
-        /* --- Improved Theme Toggle --- */
-        .theme-toggle {
-            background: var(--bg-tertiary);
-            border: 1px solid var(--border-color);
-            border-radius: 50px;
-            width: 70px;
-            height: 36px;
-            position: relative;
-            cursor: pointer;
-            transition: background-color 0.3s ease, border-color 0.3s ease;
-        }
-
         .toggle-slider {
             position: absolute;
             top: 3px;
             left: 3px;
             width: 28px;
             height: 28px;
-            background-color: var(--text-tertiary);
+            background-color: var(--bg-primary);
             border-radius: 50%;
             display: flex;
             align-items: center;
@@ -314,54 +358,19 @@
             transition: opacity 0.2s ease, transform 0.3s ease;
         }
 
-        [data-theme="light"] .theme-toggle {
-            background-color: var(--accent-solid);
-            border-color: var(--accent-solid);
-        }
-
-        [data-theme="light"] .toggle-slider {
-            transform: translateX(36px);
-            /* Movimento preciso para o lado direito */
-            background-color: #ffffff;
-        }
-
         button,
         a {
             user-select: none;
+            text-decoration: none;
         }
 
         .logo-text {
             padding: 8px 12px;
             user-select: none;
-            border-radius: 8px;
+            border-radius: 25px;
             font-weight: 500;
             cursor: pointer;
             transition: all 0.2s ease;
-            background: var(--accent-gradient);
-            color: white;
-            box-shadow: 0 2px 8px rgba(16, 185, 129, 0.3);
-        }
-
-        /* --- Language Selector --- */
-        .language-selector {
-            background: var(--card-bg);
-            backdrop-filter: blur(10px);
-            border: 1px solid var(--border-color);
-            border-radius: 12px;
-            padding: 4px;
-            display: flex;
-        }
-
-        .lang-option {
-            padding: 8px 12px;
-            border-radius: 8px;
-            color: var(--text-secondary);
-            font-weight: 500;
-            cursor: pointer;
-            transition: all 0.2s ease;
-        }
-
-        .lang-option.active {
             background: var(--accent-gradient);
             color: white;
             box-shadow: 0 2px 8px rgba(16, 185, 129, 0.3);
@@ -429,7 +438,7 @@
 
         /* Alterado para estilizar a imagem em vez do ícone */
         .partner-item img {
-            max-height: 1à0px;
+            max-height: 100px;
             /* Define uma altura máxima para manter os logos uniformes */
             width: auto;
             object-fit: contain;
@@ -443,53 +452,160 @@
             filter: grayscale(0%);
             /* Retorna a cor original no hover */
         }
+
+        /* --- Back to Top Button --- */
+        .back-to-top-btn {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            width: 50px;
+            height: 50px;
+            background: var(--accent-gradient);
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            z-index: 999;
+            cursor: pointer;
+            opacity: 0;
+            visibility: hidden;
+            transform: translateY(20px);
+            transition: opacity 0.3s ease, visibility 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .back-to-top-btn.show {
+            opacity: 1;
+            visibility: visible;
+            transform: translateY(0);
+        }
+
+        /* --- Dynamic Island --- */
+        #dynamic-island {
+            position: fixed;
+            top: 15px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 1000;
+            display: flex;
+            align-items: center;
+            padding: 8px;
+            background: var(--bg-tertiary);
+            border-radius: 50px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            transition: min-width 0.4s cubic-bezier(0.4, 0, 0.2, 1), transform 0.4s ease, opacity 0.4s ease;
+            width: auto;
+            /* Start with auto width */
+            min-width: 110px;
+            /* Minimum width to contain the logo */
+        }
+
+        #dynamic-island.hidden {
+            transform: translateX(-50%) translateY(-120%);
+            opacity: 0;
+        }
+
+        #dynamic-island:hover {
+            min-width: 200px;
+            /* Expanded width */
+        }
+
+        #dynamic-island .logo-text {
+            margin-right: auto;
+            /* Pushes the theme toggle to the right */
+        }
+
+        .theme-toggle {
+            background: #fcfcff;
+            border: 1px solid var(--border-color);
+            border-radius: 50px;
+            width: 70px;
+            height: 36px;
+            position: relative;
+            cursor: pointer;
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            transform: scaleX(0);
+            /* Hidden by default */
+            transform-origin: right;
+            opacity: 0;
+        }
+
+        #dynamic-island:hover .theme-toggle {
+            transform: scaleX(1);
+            /* Visible on hover */
+            opacity: 1;
+            margin-left: 12px;
+        }
+
+        [data-theme="light"] .theme-toggle {
+            background-color: var(--accent-solid);
+        }
+
+        [data-theme="light"] .toggle-slider {
+            transform: translateX(36px);
+        }
     </style>
 </head>
 
 <body>
+    <!-- Breadcrumb para SEO -->
+    <!-- Enhanced Breadcrumb for better SEO -->
+    <nav aria-label="Fil d'Ariane" class="hidden container mx-auto px-6 py-4">
+        <ol itemscope itemtype="https://schema.org/BreadcrumbList" class="flex space-x-2 text-sm text-gray-500">
+            <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <a href="https://siteen24h.netlify.app/" class="hover:text-green-500 transition-colors"
+                    aria-label="Page d'accueil" itemprop="item">
+                    <span itemprop="name"></span>
+                    <meta itemprop="position" content="1" />
+                </a>
+                <span class="px-2"></span>
+            </li>
+            <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem" class="text-green-500"
+                aria-current="page">
+                <span itemprop="name"></span>
+                <meta itemprop="position" content="2" />
+            </li>
+        </ol>
+    </nav>
 
-    <!-- logo a esquerda -->
-    <div class="logo-container">
-        <div class="logo" id="logo">
-            <a href="#">
-            <div class="logo-text" data-i18n="logo_text">SiteEn24h</div>
+    <!-- Dynamic Island Header -->
+    <div id="dynamic-island">
+        <a href="#hero" itemprop="url" class="logo-link">
+            <div class="logo-text" itemprop="name">SiteEn24h</div>
         </a>
-        </div>
-    </div>
-
-    </div>
-    <!-- Controls (Theme & Language) -->
-    <div class="controls">
-        <div class="language-selector" id="language-selector">
-            <div class="lang-option active" data-lang="fr">FR</div>
-            <div class="lang-option" data-lang="en">EN</div>
-        </div>
         <div class="theme-toggle" id="theme-toggle" title="Basculer le thème" role="button" tabindex="0">
             <div class="toggle-slider">
                 <i class="hidden fas fa-moon"></i>
             </div>
         </div>
     </div>
-
     <!-- 1. SEÇÃO HERÓI -->
-    <header id="hero" class="min-h-screen flex items-center justify-center relative px-6 pt-20">
+    <header itemscope itemtype="https://schema.org/Service" id="hero"
+        class="min-h-screen flex items-center justify-center relative px-6 pt-20">
+        <meta itemprop="serviceType" content="Criação de Sites">
+        <meta itemprop="provider" content="SiteEn24h">
+        <meta itemprop="areaServed" content="Marrocos">
         <div class="hero-gradient-bg"></div>
-        <div class="container mx-auto max-w-4xl text-center z-10">
-            <h1 class="text-5xl md:text-7xl font-bold leading-tight mb-6 reveal">
-                <span data-i18n="hero_headline">Votre entreprise sur Google en 24 Heures</span>
+        <div class="container mx-auto max-w-4xl text-center z-10" itemprop="description"
+            content="Criação de sites profissionais em 24h no Marrocos. Preço acessível, suporte WhatsApp e otimizado para Google.">
+            <h1 class="text-5xl md:text-7xl font-bold leading-tight mb-6 reveal" itemprop="name">
+                <span>Votre entreprise sur Google en 24 Heures</span>
             </h1>
-            <p class="text-2xl md:text-3xl font-bold text-secondary mb-4 reveal" style="animation-delay: 0.1s;">
-                <span data-i18n="hero_price">À Partir de</span> <span class="gradient-text">500 MAD</span>
+            <p class="text-2xl md:text-3xl font-bold text-secondary mb-4 reveal" style="animation-delay: 0.1s;"
+                itemprop="offers" itemscope itemtype="https://schema.org/Offer">
+                <meta itemprop="price" content="500">
+                <meta itemprop="priceCurrency" content="MAD">
+                <span>À Partir de</span> <span class="gradient-text">500 MAD</span>
             </p>
             <p class="text-lg md:text-xl text-secondary max-w-3xl mx-auto mb-12 reveal" style="animation-delay: 0.2s;">
-                <span data-i18n="hero_description">Ayez un site professionnel qui met votre entreprise sur Google et
+                <span>Ayez un site professionnel qui met votre entreprise sur Google et
                     attire de nouveaux clients chaque jour. Sans complication, sans jargon technique - juste des
                     résultats.</span>
             </p>
 
             <div class="reveal" style="animation-delay: 0.3s;">
-                <a href="https://wa.me/212715199504?text=Bonjour! Je souhaite un site en 24h" class="btn-glow"
-                    data-i18n="hero_cta">
+                <a href="https://wa.me/212715199504?text=Bonjour! Je souhaite un site en 24h" class="btn-glow">
                     Je Veux Mon Site en 24h →
                 </a>
             </div>
@@ -498,11 +614,10 @@
 
     <main>
         <!-- 2. SEÇÃO COMO FUNCIONA -->
-        <section class="py-24 px-6">
+        <section id="comment-ca-marche" class="py-24 px-6">
             <div class="container mx-auto max-w-5xl">
                 <div class="text-center mb-16">
-                    <h2 class="text-4xl md:text-5xl font-bold mb-4 reveal" data-i18n="how_it_works_title">Comment Ça
-                        Marche</h2>
+                    <h2 class="text-4xl md:text-5xl font-bold mb-4 reveal">Comment Ça Marche</h2>
                 </div>
 
                 <div class="grid md:grid-cols-3 gap-8">
@@ -511,9 +626,9 @@
                             style="background: var(--accent-gradient);">
                             <i class="fas fa-paper-plane"></i>
                         </div>
-                        <h3 class="text-2xl font-semibold mb-3" data-i18n="step1_title">1. Vous Envoyez les Informations
+                        <h3 class="text-2xl font-semibold mb-3">1. Vous Envoyez les Informations
                         </h3>
-                        <p class="text-secondary" data-i18n="step1_desc">Nom de l'entreprise, téléphone, WhatsApp,
+                        <p class="text-secondary">Nom de l'entreprise, téléphone, WhatsApp,
                             adresse, photo et ce que vous faites. Temps : 15 minutes.</p>
                     </div>
 
@@ -522,8 +637,8 @@
                             style="background: var(--accent-gradient);">
                             <i class="fas fa-code"></i>
                         </div>
-                        <h3 class="text-2xl font-semibold mb-3" data-i18n="step2_title">2. Nous Créons Votre Site</h3>
-                        <p class="text-secondary" data-i18n="step2_desc">Design professionnel, optimisé pour mobile et
+                        <h3 class="text-2xl font-semibold mb-3">2. Nous Créons Votre Site</h3>
+                        <p class="text-secondary">Design professionnel, optimisé pour mobile et
                             Google. Temps : 24 heures.</p>
                     </div>
 
@@ -532,9 +647,9 @@
                             style="background: var(--accent-gradient);">
                             <i class="fas fa-bullseye"></i>
                         </div>
-                        <h3 class="text-2xl font-semibold mb-3" data-i18n="step3_title">3. Votre Entreprise est en Ligne
+                        <h3 class="text-2xl font-semibold mb-3">3. Votre Entreprise est en Ligne
                         </h3>
-                        <p class="text-secondary" data-i18n="step3_desc">Visible sur Google et prêt à recevoir des
+                        <p class="text-secondary">Visible sur Google et prêt à recevoir des
                             clients. Temps : Immédiat.</p>
                     </div>
                 </div>
@@ -545,7 +660,7 @@
         <section class="py-16 px-6 bg-secondary">
             <div class="container mx-auto">
                 <div class="text-center mb-10">
-                    <h2 class="text-2xl md:text-3xl font-bold text-secondary" data-i18n="partners_title">Ils nous font confiance</h2>
+                    <h2 class="text-2xl md:text-3xl font-bold text-secondary">Ils nous font confiance</h2>
                 </div>
                 <div class="partners-ticker">
                     <div class="partners-track">
@@ -574,50 +689,47 @@
         </section> -->
 
         <!-- 3. SEÇÃO PACOTE -->
-        <section class="py-24 px-6">
+        <section class="py-24 px-6" id="pack">
             <div class="container mx-auto max-w-4xl">
                 <div class="text-center mb-12">
-                    <h2 class="text-4xl md:text-5xl font-bold mb-4 reveal" data-i18n="package_title">Pack Site en 24h
-                    </h2>
+                    <h2 class="text-4xl md:text-5xl font-bold mb-4 reveal">Pack Site en 24h</h2>
                 </div>
 
                 <div class="glass-card p-8 md:p-12 reveal" style="animation-delay: 0.2s;">
                     <div class="text-center mb-8">
-                        <h3 class="text-3xl font-bold mb-4" data-i18n="package_name">SITE EN 24H</h3>
+                        <h3 class="text-3xl font-bold mb-4">SITE EN 24H</h3>
                         <div class="text-5xl md:text-6xl font-bold gradient-text mb-2">500 MAD</div>
                     </div>
 
                     <div class="package-features mb-8">
                         <ul class="space-y-3 text-lg">
-                            <li class="flex items-center"><i class="fas fa-check-circle text-green-500 mr-3"></i> <span
-                                    data-i18n="feature1">1 Page Professionnelle</span></li>
-                            <li class="flex items-center"><i class="fas fa-check-circle text-green-500 mr-3"></i> <span
-                                    data-i18n="feature2">Design pour Mobile</span></li>
-                            <li class="flex items-center"><i class="fas fa-check-circle text-green-500 mr-3"></i> <span
-                                    data-i18n="feature3">Google SEO Intégré</span></li>
-                            <li class="flex items-center"><i class="fas fa-check-circle text-green-500 mr-3"></i> <span
-                                    data-i18n="feature4">Bouton WhatsApp Cliquable</span></li>
-                            <li class="flex items-center"><i class="fas fa-check-circle text-green-500 mr-3"></i> <span
-                                    data-i18n="feature5">Hébergement Gratuit (1er mois)</span></li>
-                            <li class="flex items-center"><i class="fas fa-check-circle text-green-500 mr-3"></i> <span
-                                    data-i18n="feature6">Support par WhatsApp</span></li>
-                            <li class="flex items-center"><i class="fas fa-check-circle text-green-500 mr-3"></i> <span
-                                    data-i18n="feature7">Livraison en 2 Jours Ouvrables</span></li>
+                            <li class="flex items-center"><i class="fas fa-check-circle text-green-500 mr-3"></i>
+                                <span>1 Page Professionnelle</span></li>
+                            <li class="flex items-center"><i class="fas fa-check-circle text-green-500 mr-3"></i>
+                                <span>Design pour Mobile</span></li>
+                            <li class="flex items-center"><i class="fas fa-check-circle text-green-500 mr-3"></i>
+                                <span>Google SEO Intégré</span></li>
+                            <li class="flex items-center"><i class="fas fa-check-circle text-green-500 mr-3"></i>
+                                <span>Bouton WhatsApp Cliquable</span></li>
+                            <li class="flex items-center"><i class="fas fa-check-circle text-green-500 mr-3"></i>
+                                <span>Hébergement Gratuit (1er mois)</span></li>
+                            <li class="flex items-center"><i class="fas fa-check-circle text-green-500 mr-3"></i>
+                                <span>Support par WhatsApp</span></li>
+                            <li class="flex items-center"><i class="fas fa-check-circle text-green-500 mr-3"></i>
+                                <span>Livraison en 2 Jours Ouvrables</span></li>
                             <li class="flex items-center text-red-400"><i
-                                    class="fas fa-times-circle text-red-500 mr-3"></i> <span data-i18n="exclusion1">Nom
+                                    class="fas fa-times-circle text-red-500 mr-3"></i> <span>Nom
                                     de domaine (.ma)</span></li>
                             <li class="flex items-center text-red-400"><i
-                                    class="fas fa-times-circle text-red-500 mr-3"></i> <span
-                                    data-i18n="exclusion2">Pages multiples</span></li>
+                                    class="fas fa-times-circle text-red-500 mr-3"></i> <span>Pages multiples</span></li>
                             <li class="flex items-center text-red-400"><i
-                                    class="fas fa-times-circle text-red-500 mr-3"></i> <span
-                                    data-i18n="exclusion3">E-commerce complexe</span></li>
+                                    class="fas fa-times-circle text-red-500 mr-3"></i> <span>E-commerce complexe</span>
+                            </li>
                         </ul>
                     </div>
 
                     <div class="text-center">
-                        <a href="https://wa.me/212715199504?text=Bonjour! Je veux le Pack Site en 24h" class="btn-glow"
-                            data-i18n="package_cta">
+                        <a href="https://wa.me/212715199504?text=Bonjour! Je veux le Pack Site en 24h" class="btn-glow">
                             Je Veux Ce Pack →
                         </a>
                     </div>
@@ -629,8 +741,8 @@
         <section id="realisations" class="py-24 px-6">
             <div class="container mx-auto max-w-6xl">
                 <div class="text-center mb-16">
-                    <h2 class="text-4xl md:text-5xl font-bold mb-4 reveal" data-i18n="portfolio_title">Nos réalisations</h2>
-                    <p class="text-lg text-secondary max-w-3xl mx-auto reveal" style="animation-delay: 0.1s;" data-i18n="portfolio_description">Découvrez quelques exemples de sites que nous avons créés pour nos clients.</p>
+                    <h2 class="text-4xl md:text-5xl font-bold mb-4 reveal">Nos réalisations</h2>
+                    <p class="text-lg text-secondary max-w-3xl mx-auto reveal" style="animation-delay: 0.1s;">Découvrez quelques exemples de sites que nous avons créés pour nos clients.</p>
                 </div>
 
                 <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -639,9 +751,9 @@
                        
                         <img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?crop=entropy&cs=tinysrgb&fit=max&fm=webp&auto=format&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDN8fGNhZmV8ZW58MHx8fHwxNjE2NjY2Mzg4&ixlib=rb-1.2.1&q=75&w=400" alt="Aperçu du site Café Marrakech" class="w-full h-48 object-cover" loading="lazy" width="400" height="192">
                         <div class="p-6">
-                            <h3 class="text-xl font-bold mb-2" data-i18n="project1_title">Café Marrakech</h3>
-                            <p class="text-secondary mb-4" data-i18n="project1_desc">Site vitrine élégant pour un café premium, avec menu en ligne et réservations via WhatsApp.</p>
-                            <a href="#" class="font-semibold text-green-400 hover:text-green-300 transition-colors" data-i18n="project_cta">Voir le site →</a>
+                            <h3 class="text-xl font-bold mb-2">Café Marrakech</h3>
+                            <p class="text-secondary mb-4">Site vitrine élégant pour un café premium, avec menu en ligne et réservations via WhatsApp.</p>
+                            <a href="#" class="font-semibold text-green-400 hover:text-green-300 transition-colors">Voir le site →</a>
                         </div>
                     </div>
 
@@ -650,9 +762,9 @@
                        
                         <img src="https://images.unsplash.com/photo-1528747045269-390a322c39b9?crop=entropy&cs=tinysrgb&fit=max&fm=webp&auto=format&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDEyfHxhcnRpc2FufGVufDB8fHx8MTYxNjY2NjQyOA&ixlib=rb-1.2.1&q=75&w=400" alt="Aperçu du site Artisanat Zellige" class="w-full h-48 object-cover" loading="lazy" width="400" height="192">
                         <div class="p-6">
-                            <h3 class="text-xl font-bold mb-2" data-i18n="project2_title">Artisanat Zellige</h3>
-                            <p class="text-secondary mb-4" data-i18n="project2_desc">Portfolio en ligne pour un artisan spécialisé en zellige, mettant en valeur ses créations uniques.</p>
-                            <a href="#" class="font-semibold text-green-400 hover:text-green-300 transition-colors" data-i18n="project_cta">Voir le site →</a>
+                            <h3 class="text-xl font-bold mb-2">Artisanat Zellige</h3>
+                            <p class="text-secondary mb-4">Portfolio en ligne pour un artisan spécialisé en zellige, mettant en valeur ses créations uniques.</p>
+                            <a href="#" class="font-semibold text-green-400 hover:text-green-300 transition-colors">Voir le site →</a>
                         </div>
                     </div>
 
@@ -661,9 +773,9 @@
                        
                         <img src="https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?crop=entropy&cs=tinysrgb&fit=max&fm=webp&auto=format&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDEwfHxwbHVtYmVyfGVufDB8fHx8MTYxNjY2NjQ2Mw&ixlib=rb-1.2.1&q=75&w=400" alt="Aperçu du site Plomberie Express" class="w-full h-48 object-cover" loading="lazy" width="400" height="192">
                         <div class="p-6">
-                            <h3 class="text-xl font-bold mb-2" data-i18n="project3_title">Plomberie Express</h3>
-                            <p class="text-secondary mb-4" data-i18n="project3_desc">Site simple et direct pour un service de plomberie, optimisé pour les appels d'urgence locaux.</p>
-                            <a href="#" class="font-semibold text-green-400 hover:text-green-300 transition-colors" data-i18n="project_cta">Voir le site →</a>
+                            <h3 class="text-xl font-bold mb-2">Plomberie Express</h3>
+                            <p class="text-secondary mb-4">Site simple et direct pour un service de plomberie, optimisé pour les appels d'urgence locaux.</p>
+                            <a href="#" class="font-semibold text-green-400 hover:text-green-300 transition-colors">Voir le site →</a>
                         </div>
                     </div>
                 </div>
@@ -674,19 +786,18 @@
         <section class="py-24 px-6 bg-secondary">
             <div class="container mx-auto max-w-4xl">
                 <div class="text-center mb-16">
-                    <h2 class="text-4xl md:text-5xl font-bold mb-4 reveal" data-i18n="faq_title">Questions Fréquentes
-                    </h2>
+                    <h2 class="text-4xl md:text-5xl font-bold mb-4 reveal">Questions Fréquentes</h2>
                 </div>
 
                 <div class="space-y-4" id="faq-container">
                     <div class="glass-card p-6 reveal" style="animation-delay: 0.1s;">
                         <button
                             class="faq-question w-full text-left flex justify-between items-center font-semibold text-lg">
-                            <span data-i18n="faq_q1">Combien de temps cela prend-il vraiment ?</span>
+                            <span>Combien de temps cela prend-il vraiment ?</span>
                             <i class="fas fa-chevron-down faq-icon"></i>
                         </button>
                         <div class="faq-answer">
-                            <p class="text-secondary" data-i18n="faq_a1">Nous garantissons une livraison en 2 jours
+                            <p class="text-secondary">Nous garantissons une livraison en 2 jours
                                 ouvrables. En pratique, nous livrons généralement en 24h !</p>
                         </div>
                     </div>
@@ -694,11 +805,11 @@
                     <div class="glass-card p-6 reveal" style="animation-delay: 0.2s;">
                         <button
                             class="faq-question w-full text-left flex justify-between items-center font-semibold text-lg">
-                            <span data-i18n="faq_q2">Dois-je payer quelque chose en plus des 500 MAD ?</span>
+                            <span>Dois-je payer quelque chose en plus des 500 MAD ?</span>
                             <i class="fas fa-chevron-down faq-icon"></i>
                         </button>
                         <div class="faq-answer">
-                            <p class="text-secondary" data-i18n="faq_a2">Le montant est unique. L'hébergement du premier
+                            <p class="text-secondary">Le montant est unique. L'hébergement du premier
                                 mois est gratuit. Après cela, l'hébergement coûte à partir de 100 MAD/mois. Le nom de
                                 domaine (.ma) est optionnel et coûte environ 150 MAD/an.</p>
                         </div>
@@ -707,11 +818,11 @@
                     <div class="glass-card p-6 reveal" style="animation-delay: 0.3s;">
                         <button
                             class="faq-question w-full text-left flex justify-between items-center font-semibold text-lg">
-                            <span data-i18n="faq_q3">Et si je veux modifier quelque chose sur le site plus tard ?</span>
+                            <span>Et si je veux modifier quelque chose sur le site plus tard ?</span>
                             <i class="fas fa-chevron-down faq-icon"></i>
                         </button>
                         <div class="faq-answer">
-                            <p class="text-secondary" data-i18n="faq_a3">Les petites modifications comme le texte ou le
+                            <p class="text-secondary">Les petites modifications comme le texte ou le
                                 téléphone sont faites gratuitement par nos soins. Pour des changements plus importants,
                                 nous facturons un montant convenu au préalable.</p>
                         </div>
@@ -721,45 +832,44 @@
         </section>
 
         <!-- 5. SEÇÃO CONTATO -->
-        <section id="contato" class="py-24 px-6">
+        <section id="contact" class="py-24 px-6">
             <div class="container mx-auto max-w-4xl">
                 <div class="text-center mb-12">
-                    <h2 class="text-4xl md:text-5xl font-bold mb-4 reveal" data-i18n="contact_title">Prêt à Commencer ?
-                    </h2>
-                    <p class="text-lg text-secondary mb-8 reveal" style="animation-delay: 0.1s;"
-                        data-i18n="contact_description">Envoyez vos informations et discutons-en sur WhatsApp !</p>
+                    <h2 class="text-4xl md:text-5xl font-bold mb-4 reveal">Prêt à Commencer ?</h2>
+                    <p class="text-lg text-secondary mb-8 reveal" style="animation-delay: 0.1s;">Envoyez vos
+                        informations et discutons-en sur WhatsApp !</p>
                 </div>
 
                 <div class="glass-card p-8 md:p-12 reveal" style="animation-delay: 0.2s;">
                     <form id="contact-form" class="space-y-6">
                         <div>
-                            <input type="text" id="name" name="name" class="form-input"
-                                data-i18n-placeholder="name_placeholder" required>
+                            <input type="text" id="name" name="name" class="form-input" placeholder="Votre Nom"
+                                required>
                         </div>
 
                         <div>
                             <input type="tel" id="whatsapp" name="whatsapp" class="form-input"
-                                data-i18n-placeholder="whatsapp_placeholder" required>
+                                placeholder="Votre WhatsApp" required>
                         </div>
 
                         <div>
                             <select id="business-type" name="business-type" class="form-input" required>
-                                <option value="" disabled selected data-i18n="business_type_placeholder"></option>
-                                <option value="restaurante" data-i18n="type_restaurant">Restaurant/Café</option>
-                                <option value="loja" data-i18n="type_store">Boutique</option>
-                                <option value="servico" data-i18n="type_service">Service (électricien, plombier, etc.)
+                                <option value="" disabled selected>Type d'Entreprise</option>
+                                <option value="restaurante">Restaurant/Café</option>
+                                <option value="loja">Boutique</option>
+                                <option value="servico">Service (électricien, plombier, etc.)
                                 </option>
-                                <option value="artesao" data-i18n="type_artisan">Artisan</option>
-                                <option value="outro" data-i18n="type_other">Autre</option>
+                                <option value="artesao">Artisan</option>
+                                <option value="outro">Autre</option>
                             </select>
                         </div>
 
                         <div>
                             <textarea id="message" name="message" rows="4" class="form-input"
-                                data-i18n-placeholder="message_placeholder"></textarea>
+                                placeholder="Message (optionnel)"></textarea>
                         </div>
 
-                        <button type="submit" class="btn-glow w-full" data-i18n="contact_cta">Envoyer vers
+                        <button type="submit" class="btn-glow w-full">Envoyer vers
                             WhatsApp</button>
                     </form>
                 </div>
@@ -768,199 +878,104 @@
     </main>
 
     <!-- Footer -->
-    <footer class="py-12 px-6 text-center text-tertiary border-t border-color">
-        <div class="container mx-auto max-w-4xl">
-            <p>&copy; 2025 <span data-i18n="footer_brand">SiteEn24h</span>. <span data-i18n="footer_rights">Tous droits
-                    réservés.</span></p>
+    <footer class="bg-gray-900 text-white py-12 px-6 border-t border-gray-800">
+        <div class="container mx-auto max-w-6xl">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 text-left">
+                <!-- Sobre -->
+                <div class="mb-8">
+                    <h3 class="text-xl font-bold mb-4 text-green-400">SiteEn24h</h3>
+                    <p class="text-gray-400 mb-4">Création de sites web professionnels en 24 heures au Maroc. Des
+                        solutions rapides et efficaces pour votre entreprise.</p>
+                    <div class="flex space-x-4">
+                        <a href="https://wa.me/212715199504" target="_blank" aria-label="WhatsApp"
+                            class="text-gray-400 hover:text-green-400 transition-colors">
+                            <i class="fab fa-whatsapp text-2xl"></i>
+                        </a>
+                        <a href="#" target="_blank" aria-label="Facebook"
+                            class="text-gray-400 hover:text-blue-400 transition-colors">
+                            <i class="fab fa-facebook text-2xl"></i>
+                        </a>
+                        <a href="#" target="_blank" aria-label="Instagram"
+                            class="text-gray-400 hover:text-pink-500 transition-colors">
+                            <i class="fab fa-instagram text-2xl"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Liens Rapides / Quick Links -->
+                <div class="mb-8">
+                    <h3 class="text-lg font-semibold mb-4 text-green-400">Liens Rapides</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#hero" class="text-gray-400 hover:text-white transition-colors">Accueil</a></li>
+                        <li><a href="#comment-ca-marche"
+                                class="text-gray-400 hover:text-white transition-colors">Comment ça marche</a></li>
+                        <li><a href="#pack" class="text-gray-400 hover:text-white transition-colors">Packs</a></li>
+                        <li><a href="#contact" class="text-gray-400 hover:text-white transition-colors">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact / Contact -->
+                <div class="mb-8">
+                    <h3 class="text-lg font-semibold mb-4 text-green-400">Contact</h3>
+                    <ul class="space-y-2">
+                        <li class="flex items-start">
+                            <i class="fas fa-phone-alt mt-1 mr-2 text-green-400"></i>
+                            <a href="tel:+212715199504" class="text-gray-400 hover:text-white transition-colors">+212
+                                715-199504</a>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-envelope mt-1 mr-2 text-green-400"></i>
+                            <a href="mailto:contact@siteen24h.ma"
+                                class="text-gray-400 hover:text-white transition-colors">nunesjoel324@gmail.com</a>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-map-marker-alt mt-1 mr-2 text-green-400"></i>
+                            <span class="text-gray-400">Meknès, Maroc</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Opening Hours / Heures d'Ouverture -->
+                <div>
+                    <h3 class="text-lg font-semibold mb-4 text-green-400">Heures d'Ouverture</h3>
+                    <ul class="space-y-2 text-gray-400">
+                        <li class="flex justify-between">
+                            <span>Lundi - Vendredi:</span>
+                            <span>09:00 - 20:00</span>
+                        </li>
+                        <li class="flex justify-between">
+                            <span>Samedi:</span>
+                            <span>Fermé</span>
+                        </li>
+                        <li class="flex justify-between">
+                            <span>Dimanche:</span>
+                            <span>Fermé</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="border-t border-gray-800 mt-12 pt-8 text-center">
+                <p class="text-gray-500 text-sm">&copy; 2025 <span>SiteEn24h</span>. Tous droits réservés.</p>
+
+            </div>
         </div>
     </footer>
+
+    <!-- Botão "Voltar ao Topo" -->
+    <a href="#hero" id="back-to-top" class="back-to-top-btn" aria-label="Retour en haut">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
 
     <script>
         document.addEventListener('DOMContentLoaded', function () {
 
-            // --- TRANSLATIONS DATA ---
-            const translations = {
-                fr: {
-                    page_title: "Site en 24h pour Votre Entreprise",
-                    meta_description: "Créez votre site professionnel en 24h pour 500 MAD. Optimisé pour Google SEO et mobile. Commencez à recevoir des clients en ligne demain !",
-                    og_title: "Site en 24h pour Votre Entreprise",
-                    og_description: "Créez votre site professionnel en 24h para 500 MAD. Optimisé pour Google SEO et mobile.",
-                    hero_headline: "Votre entreprise sur Google en 24 Heures",
-                    hero_price: "À Partir de",
-                    hero_description: "Ayez un site professionnel qui met votre entreprise sur Google et attire de nouveaux clients chaque jour. Sans complication, sans jargon technique - juste des résultats.",
-                    hero_cta: "Je Veux Mon Site en 24h →",
-                    how_it_works_title: "Comment Ça Marche",
-                    step1_title: "1. Vous Envoyez les Informations",
-                    step1_desc: "Nom de l'entreprise, téléphone, WhatsApp, adresse, photo et ce que vous faites. Temps : 15 minutes.",
-                    step2_title: "2. Nous Créons Votre Site",
-                    step2_desc: "Design professionnel, optimisé pour mobile et Google. Temps : 24 heures.",
-                    step3_title: "3. Votre Entreprise est en Ligne",
-                    step3_desc: "Visible sur Google et prêt à recevoir des clients. Temps : Immédiat.",
-                    partners_title: "Ils nous font confiance",
-                    package_title: "Pack Site en 24h",
-                    package_name: "SITE EN 24H",
-                    
-                    feature1: "1 Page Professionnelle",
-                    feature2: "Design pour Mobile",
-                    feature3: "Google SEO Intégré",
-                    feature4: "Bouton WhatsApp Cliquable",
-                    feature5: "Hébergement Gratuit (1er mois)",
-                    feature6: "Support par WhatsApp",
-                    feature7: "Livraison en 2 Jours Ouvrables",
-                    exclusion1: "Nom de domaine (.ma)",
-                    exclusion2: "Pages multiples",
-                    exclusion3: "E-commerce complexe",
-                    package_cta: "Je Veux Ce Pack →",
-                    faq_title: "Questions Fréquentes",
-                    faq_q1: "Combien de temps cela prend-il vraiment ?",
-                    faq_a1: "Nous garantissons une livraison en 2 jours ouvrables. En pratique, nous livrons généralement en 24h !",
-                    faq_q2: "Dois-je payer quelque chose en plus des 500 MAD ?",
-                    faq_a2: "Le montant est unique. L'hébergement du premier mois est gratuit. Après cela, l'hébergement coûte à partir de 100 MAD/mois. Le nom de domaine (.ma) est optionnel et coûte environ 150 MAD/an.",
-                    faq_q3: "Et si je veux modifier quelque chose sur le site plus tard ?",
-                    faq_a3: "Les petites modifications comme le texte ou le téléphone sont faites gratuitement par nos soins. Pour des changements plus importants, nous facturons un montant convenu au préalable.",
-                    contact_title: "Prêt à Commencer ?",
-                    portfolio_title: "Nos réalisations",
-                    portfolio_description: "Découvrez quelques exemples de sites que nous avons créés pour nos clients.",
-                    project1_title: "Café Marrakech",
-                    project1_desc: "Site vitrine élégant pour un café premium, avec menu en ligne et réservations via WhatsApp.",
-                    project2_title: "Artisanat Zellige",
-                    project2_desc: "Portfolio en ligne pour un artisan spécialisé en zellige, mettant en valeur ses créations uniques.",
-                    project3_title: "Plomberie Express",
-                    project3_desc: "Site simple et direct pour un service de plomberie, optimisé pour les appels d'urgence locaux.",
-                    project_cta: "Voir le site →",
-                    contact_description: "Envoyez vos informations et discutons-en sur WhatsApp !",
-                    name_placeholder: "Votre Nom",
-                    whatsapp_placeholder: "Votre WhatsApp",
-                    business_type_placeholder: "Type d'Entreprise",
-                    type_restaurant: "Restaurant/Café",
-                    type_store: "Boutique",
-                    type_service: "Service (électricien, plombier, etc.)",
-                    type_artisan: "Artisan",
-                    type_other: "Autre",
-                    message_placeholder: "Message (optionnel)",
-                    contact_cta: "Envoyer vers WhatsApp",
-                    footer_brand: "Site en 24h",
-                    footer_rights: "Tous droits réservés.",
-                    whatsapp_message_template: "Bonjour ! Mon nom est {name}.%0A%0A*WhatsApp:* {whatsapp}%0A*Type d'entreprise:* {businessType}%0A*Message:* {message || 'Je n\'ai pas rempli de message.'}%0A%0AJ'aimerais plus d'informations sur le pack Site en 24h."
-                },
-                en: {
-                    page_title: "Website in 24h for Your Business",
-                    meta_description: "Create your professional website in 24h for 500 MAD. Optimized for Google SEO and mobile. Start receiving online customers tomorrow!",
-                    og_title: "Website in 24h for Your Business",
-                    og_description: "Create your professional website in 24h for 500 MAD. Optimized for Google SEO and mobile.",
-                    hero_headline: "Your Business on Google in 24 Hours",
-                    hero_price: "Starting from",
-                    hero_description: "Have a professional website that puts your business on Google and attracts new customers every day. No complications, no technical jargon - just results.",
-                    hero_cta: "I Want My Website in 24h →",
-                    how_it_works_title: "How It Works",
-                    step1_title: "1. You Send the Information",
-                    step1_desc: "Business name, phone, WhatsApp, address, photo, and what you do. Time: 15 minutes.",
-                    step2_title: "2. We Create Your Website",
-                    step2_desc: "Professional design, optimized for mobile and Google. Time: 24 hours.",
-                    step3_title: "3. Your Business is Online",
-                    step3_desc: "Appearing on Google and ready to receive customers. Time: Immediate.",
-                    partners_title: "They trust us",
-                    package_title: "Website in 24h Package",
-                    package_name: "WEBSITE IN 24H",
-                    
-                    feature1: "1 Professional Page",
-                    feature2: "Mobile Design",
-                    feature3: "Google SEO Integrated",
-                    feature4: "Clickable WhatsApp Button",
-                    feature5: "Free Hosting (1st month)",
-                    feature6: "Support via WhatsApp",
-                    feature7: "Delivery in 2 Business Days",
-                    exclusion1: "Domain (.ma)",
-                    exclusion2: "Multiple Pages",
-                    exclusion3: "Complex E-commerce",
-                    package_cta: "I Want This Package →",
-                    faq_title: "Frequently Asked Questions",
-                    faq_q1: "How long does it really take?",
-                    faq_a1: "We guarantee delivery in 2 business days. In practice, we usually deliver in 24h!",
-                    faq_q2: "Do I need to pay anything beyond the 500 MAD?",
-                    faq_a2: "The amount is a one-time fee. The first month of hosting is free. After that, hosting costs from 100 MAD/month. The domain (.ma) is optional and costs about 150 MAD/year.",
-                    faq_q3: "What if I want to change something on the site later?",
-                    faq_a3: "Small changes like text or phone number are done for free by us. For larger changes, we charge a previously agreed amount.",
-                    contact_title: "Ready to Start?",
-                    portfolio_title: "Our Work",
-                    portfolio_description: "Check out some examples of websites we have created for our clients.",
-                    project1_title: "Marrakech Café",
-                    project1_desc: "Elegant showcase site for a premium café, with an online menu and WhatsApp reservations.",
-                    project2_title: "Zellige Craft",
-                    project2_desc: "Online portfolio for a zellige craftsman, highlighting his unique creations.",
-                    project3_title: "Express Plumbing",
-                    project3_desc: "Simple and direct website for a plumbing service, optimized for local emergency calls.",
-                    project_cta: "View Site →",
-                    contact_description: "Send your information and let's chat on WhatsApp!",
-                    name_placeholder: "Your Name",
-                    whatsapp_placeholder: "Your WhatsApp",
-                    business_type_placeholder: "Business Type",
-                    type_restaurant: "Restaurant/Café",
-                    type_store: "Store",
-                    type_service: "Service (electrician, plumber, etc.)",
-                    type_artisan: "Artisan",
-                    type_other: "Other",
-                    message_placeholder: "Message (optional)",
-                    contact_cta: "Send to WhatsApp",
-                    footer_brand: "Website in 24h",
-                    footer_rights: "All rights reserved.",
-                    whatsapp_message_template: "Hello! My name is {name}.%0A%0A*WhatsApp:* {whatsapp}%0A*Business Type:* {businessType}%0A*Message:* {message || 'I did not fill in a message.'}%0A%0AI would like more information about the Website in 24h package."
-                }
-            };
-
-            // --- LANGUAGE & THEME INITIALIZATION ---
-            let currentLang = localStorage.getItem('language') || 'fr';
+            // --- THEME INITIALIZATION ---
             const currentTheme = localStorage.getItem('theme') || 'dark';
 
-            // Apply initial language and theme
-            applyLanguage(currentLang);
+            // Apply initial theme
             applyTheme(currentTheme);
-
-            // --- LANGUAGE FUNCTIONALITY ---
-            function applyLanguage(lang) {
-                document.documentElement.lang = lang;
-                currentLang = lang;
-                localStorage.setItem('language', lang);
-
-                // Update all elements with data-i18n attribute
-                document.querySelectorAll('[data-i18n]').forEach(element => {
-                    const key = element.getAttribute('data-i18n');
-                    if (translations[lang] && translations[lang][key]) {
-                        element.textContent = translations[lang][key];
-                    }
-                });
-
-                // Update placeholders
-                document.querySelectorAll('[data-i18n-placeholder]').forEach(element => {
-                    const key = element.getAttribute('data-i18n-placeholder');
-                    if (translations[lang] && translations[lang][key]) {
-                        element.placeholder = translations[lang][key];
-                    }
-                });
-
-                // Update meta tags
-                const titleTag = document.querySelector('title');
-                const metaDesc = document.querySelector('meta[name="description"]');
-                const ogTitle = document.querySelector('meta[property="og:title"]');
-                const ogDesc = document.querySelector('meta[property="og:description"]');
-
-                if (titleTag) titleTag.textContent = translations[lang].page_title;
-                if (metaDesc) metaDesc.content = translations[lang].meta_description;
-                if (ogTitle) ogTitle.content = translations[lang].og_title;
-                if (ogDesc) ogDesc.content = translations[lang].og_description;
-
-                // Update active state in language selector
-                document.querySelectorAll('.lang-option').forEach(btn => {
-                    btn.classList.toggle('active', btn.dataset.lang === lang);
-                });
-            }
-
-            // Language selector event listener
-            document.getElementById('language-selector').addEventListener('click', (e) => {
-                if (e.target.classList.contains('lang-option')) {
-                    applyLanguage(e.target.dataset.lang);
-                }
-            });
 
             // --- THEME FUNCTIONALITY ---
             function applyTheme(theme) {
@@ -1014,7 +1029,7 @@
                 const businessType = document.getElementById('business-type').value;
                 const message = document.getElementById('message').value;
 
-                const template = translations[currentLang].whatsapp_message_template;
+                const template = "Bonjour ! Mon nom est {name}.%0A%0A*WhatsApp:* {whatsapp}%0A*Type d'entreprise:* {businessType}%0A*Message:* {message || 'Je n\\'ai pas rempli de message.'}%0A%0AJ'aimerais plus d'informations sur le pack Site en 24h.";
                 const whatsappMessage = template
                     .replace('{name}', name)
                     .replace('{whatsapp}', whatsapp)
@@ -1025,6 +1040,32 @@
                 const whatsappNumber = '212715199504';
                 window.open(`https://wa.me/${whatsappNumber}?text=${whatsappMessage}`, '_blank');
             });
+
+            // --- Back to Top Button ---
+            const backToTopButton = document.getElementById('back-to-top');
+            window.addEventListener('scroll', () => {
+                if (window.scrollY > 300) {
+                    backToTopButton.classList.add('show');
+                } else {
+                    backToTopButton.classList.remove('show');
+                }
+            });
+
+            // --- Dynamic Island Hide on Scroll ---
+            let lastScrollTop = 0;
+            const dynamicIsland = document.getElementById('dynamic-island');
+            window.addEventListener('scroll', function () {
+                let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+                if (scrollTop > lastScrollTop && scrollTop > 50) {
+                    // Scroll Down
+                    dynamicIsland.classList.add('hidden');
+                } else {
+                    // Scroll Up
+                    dynamicIsland.classList.remove('hidden');
+                }
+                lastScrollTop = scrollTop <= 0 ? 0 : scrollTop; // For Mobile or negative scrolling
+            });
+
         });
     </script>
 </body>

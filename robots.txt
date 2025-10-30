@@ -1,33 +1,14 @@
+# Autoriser l'accès à tous les robots d'exploration
 User-agent: *
 Allow: /
-Sitemap: https://siteen24h.netlify.app/sitemap.xml
 
-# Block unwanted directories
+# Bloquer les répertoires administratifs ou de configuration courants 
+# qui n'existent pas sur ce site statique. C'est une bonne pratique.
 Disallow: /admin/
 Disallow: /includes/
 Disallow: /config/
-
-# Block files
 Disallow: /private/
 Disallow: /cgi-bin/
-Disallow: /*.php$
 
-# Allow search engines to index important pages
-Allow: /$
-Allow: /index.html
-Allow: /sobre
-Allow: /servicos
-Allow: /portfolio
-Allow: /contato
-
-# Crawl-delay: 10
-
-# Block specific pages
-Disallow: /politica-de-privacidade
-Disallow: /termos-de-uso
-
-# Host
-Host: siteen24h.netlify.app
-
-# Sitemaps
+# Indiquer l'emplacement du plan du site
 Sitemap: https://siteen24h.netlify.app/sitemap.xml
